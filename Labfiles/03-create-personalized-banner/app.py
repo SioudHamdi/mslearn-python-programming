@@ -10,6 +10,11 @@ banner = pyfiglet.figlet_format(name)
 # Print a greeting
 print(banner)
 print(f"Hello, {name.upper()}! Welcome to VS Code.")
- # Ask the user how they're feeling today and print their answer as a banner
+# Ask the user how they're feeling today.
 feeling = input("How are you feeling today? ")
+
+# Convert the feeling into a large text banner.
 feeling_banner = pyfiglet.figlet_format(feeling)
+
+# Display the feeling banner.
+print(feeling_banner)
